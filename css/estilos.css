@@ -1,0 +1,219 @@
+body{
+    background-color: #0986ec;
+    position: relative;
+}
+
+.Header{
+    width: 100%;
+    height: 95vh;
+    background-image: linear-gradient(180deg, #3a778d, #1e59b341 100%), url(../img/index.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-dark{
+    background-color: #393e46 !important;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+.bg-dark1{
+    background-color:#393e46 ;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    border-bottom: 2px solid #fdbb2d;
+}
+
+@media (min-width: 768px){
+    .bg-dark{
+        background-color: transparent !important;
+    }
+}
+
+.navbar a{
+    color: #fff !important;
+    font-family:'MuseoModerno';
+    text-align: center;
+    font-size: 23px;
+    padding: 4px 15px;
+}
+
+.navbar a:hover{
+    background: linear-gradient(160deg, #22c2c3 0%, #fdbb2d 100%);
+    border-radius: 5%;
+}
+
+.Text-hero{
+    height: 550px;
+    color: #fff;
+    font-family: 'Rajdhani';
+    padding-top: 190px;
+}
+
+.Text-hero h3,h5{
+    font-size: 70px;
+    letter-spacing: .2em;
+    /* font-weight: bold; */
+    display: flex;
+}
+
+@media (max-width: 500px){
+    .Text-hero h3,h5{
+        font-size: 47px;
+    }
+}
+
+.Text-hero a{
+    font-family: 'Montserrat';
+    color: #fff;
+    font-size: 23px;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    background: linear-gradient(160deg, #22c3c3bb 0%, #fdbb2db0 100%);
+}
+
+.Text-hero a:hover{
+    background: linear-gradient(160deg, #22c2c3 0%, #fdbb2d 100%);
+}
+
+.svg-hero{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Fin del Header  */
+
+.Perfil{
+    background-color: #049bff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.Perfil h1{
+    font-family: 'MuseoModerno';
+    font-size: 50px;
+    padding-bottom: 13px;
+}
+
+.Perfil h3{
+    font-family: 'Rajdhani';
+    font-size: 35px;
+    padding-bottom: 13px;
+    letter-spacing: 7px;
+}
+
+.Perfil p{
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: 500;
+}
+/* fin seccion Perfil */
+
+.Galeria {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #f5f5f5;
+    background-color: #0099e0;
+}
+
+.Galeria h2{
+    font-family: 'MuseoModerno';
+    font-size: 50px;
+    padding-bottom: 7px;
+}
+
+.Galeria h4{
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.Galeria .col-lg-4{
+    margin: 0 !important;
+    padding: 3px;
+    transition: 0.2s linear;
+}
+
+.Galeria .col-lg-4:hover{
+    transform: scale(1.05);
+    transition: 0.2s linear;
+    z-index: 1;
+}
+
+.Galeria .row img{
+    width: 100%;
+    height: 250px;
+}
+
+/*  fin Seccion Galeria  */
+
+.Contacto{
+     padding-top: 80px;
+     padding-bottom: 80px;
+}
+
+.Contacto h1{
+    font-family: 'MuseoModerno' ;
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+
+.Contacto input{
+    margin-bottom: 23px;
+    border: none;
+    border-radius: 0;
+    box-shadow: none !important;
+    border-bottom: 1px solid #313848;
+    margin-right: 10px;
+}
+
+.Contacto textarea{
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 1px solid #313848;
+    box-shadow: none !important;
+    min-height: 150px;
+    max-height: 150px;
+    width: 100%;
+    resize: vertical;
+}
+
+.Contacto a{
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    padding: 4px 15px;
+    text-align: center;
+    background: linear-gradient(160deg, #22c3c3bb 0%, #fdbb2db0 100%);
+    text-decoration: none;
+}
+
+.Contacto a:hover{
+    background: linear-gradient(160deg, #22c3c3f6 0%, #fdbb2df1 100%);
+}
+
+/* Fin Seccion Contacto  */
+
+.Foot{
+    background: linear-gradient(160deg, #22c3c3f6 0%, #fdbb2df1 100%);
+}
+
+.Foot h4{
+    font-family: 'MuseoModerno';
+    padding: 10px;
+    font-size: 27px;
+    font-weight: 900;
+    margin: 0;
+    overflow: hidden;
+}
