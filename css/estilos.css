@@ -93,7 +93,7 @@ body{
 /* Fin del Header  */
 
 .Perfil{
-    background-color: #049bff;
+    
     padding-top: 80px;
     padding-bottom: 80px;
     text-align: center;
@@ -216,4 +216,80 @@ body{
     font-weight: 900;
     margin: 0;
     overflow: hidden;
+}
+
+/* codigo cambio de color de fondo*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+.perfil{
+	margin: 0;
+	padding: 0;
+	background: #E8347D;
+	font-family: 'Poppins', sans-serif;
+}
+
+.color{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+#hexadecimal{
+	font-size: 35px;
+	color: #ffffff;
+	display: block;
+	text-transform: uppercase;
+	margin: 15px;
+}
+
+.color button{
+	cursor: pointer;
+	background: none;
+	outline: none;
+	font-size: 15px;
+	color: #ffffff;
+	border: 5px solid #fff;
+	border-radius: 300px;
+	padding: 50px 50px;
+	transition: transform .3s ease
+}
+
+.color button:hover{
+	transform: scale(1.1);
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.hex:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
 }
