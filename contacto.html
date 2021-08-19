@@ -17,7 +17,6 @@
 </head>
 
 <body>
-
     <header class="Header">
         <div class="bg-dark bg-dark1" id="mecSoc">
             <div class="container">
@@ -38,6 +37,9 @@
         </div>
 
     </header>
+
+    <div id="map"></div>
+    <script src="script.js"></script>
 
     <h1 class="text-center">NUESTRAS OFICINAS</h1>
 
@@ -380,6 +382,7 @@
         crossorigin="anonymous"></script>
     <script src="js/Jscrip.js"></script>
     <script src="//cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
     <script>
         $(document).ready(function() {
             $('#example').DataTable();
