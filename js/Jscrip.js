@@ -53,6 +53,7 @@ function copiarAlPortapapeles(hexadecimal) {
 	document.body.removeChild(aux);
 	document.getElementById("text").innerHTML = "Copiado!";
 }
+//codigo  del google maps pirata xD//
 
 function iniciarMap(){
     var coord = {lat:-33.4488897 ,lng: -70.6692655};
